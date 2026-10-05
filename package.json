@@ -1,0 +1,14 @@
+{
+  "name": "evidence-trust",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Evidence-first transaction protection platform for social commerce",
+  "engines": { "node": ">=20" },
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "typecheck": "npm run typecheck -w @evidence-trust/api",
+    "test": "npm run test -w @evidence-trust/api",
+    "build": "npm run build -w @evidence-trust/api",
+    "migrate": "npm run migrate -w @evidence-trust/api"
+  }
+}
